@@ -5,9 +5,9 @@ import { cacheFn } from "ps-std";
 
 const MAGIC_SIZE = 8 * 7;
 
-const SIZE_OFFSET = 8 * 7;
-const ROOT_OFFSET = 8 * 8;
-const FREE_OFFSET = 8 * 9;
+const SIZE_OFFSET = 7;
+const ROOT_OFFSET = 8;
+const FREE_OFFSET = 9;
 
 const START_OFFSET = BigInt(1);
 const CHUNK_SIZE = BigInt(80);
