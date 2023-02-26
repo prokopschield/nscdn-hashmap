@@ -1,0 +1,17 @@
+{
+	"name": "nscdn-hashmap",
+	"description": "hashmap data storage backed by the nodesite cdn",
+	"version": "0.1.0-1",
+	"main": "lib/index.js",
+	"author": "Prokop Schield",
+	"dependencies": {
+		"@prokopschield/mmap": "^0.1.0-2",
+		"nsblob": "^0.2.20",
+		"ps-std": "^0.1.6"
+	},
+	"devDependencies": {
+		"@types/node": ">=16"
+	},
+	"keywords": [],
+	"license": "GPL-3.0-or-later"
+}
